@@ -8,6 +8,7 @@
 // match the expected interface, even if the JSON is valid.
 
 export interface Country {
+    status?: string;
     name:           string;
     topLevelDomain: string[];
     alpha2Code:     string;
